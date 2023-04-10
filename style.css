@@ -281,3 +281,61 @@ p {
 .reviews_star_unactive {
     opacity: 0.3;
 }
+
+
+
+.courses {
+    margin-top: 14rem;
+    margin-bottom: 8rem;
+}
+.subtitle {
+    text-align: center;
+    font-size: 1.1rem;
+    color: var(--gray);
+    font-weight: 300;
+}
+.margin {
+    margin-bottom: 1rem;
+}
+.courses_inner {
+    margin-top: 3.5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.course {
+    width: 33.33%;
+    padding: 0 1rem;
+}
+.course_name {
+    margin-top: 1.3rem;
+    font-size: 1.1rem;
+    color: var(--black);
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+}
+.course_cat {
+    font-size: 0.75rem;
+    color: var(--gray);
+    margin-bottom: 1.1rem;
+}
+.course_text {
+    font-size: 0.75rem;
+    color: var(--gray);
+    font-weight: 300;
+}
+.btn_edit {
+    width: 130px;
+    height: 34px;
+    font-size: 0.9rem;
+    padding: 0.5rem 0.75rem;
+    margin-top: 1.5rem;
+}
+.link {
+    margin-top: 1rem;
+    text-align: right;
+}
+.course_link {
+    font-size: 0.9rem;
+    color: var(--gray);
+
+}
