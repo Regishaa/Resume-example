@@ -431,5 +431,25 @@ p {
         font-size: 1rem;
     }
 
-    
+    .course {
+        width: 100%;
+        margin-bottom: 3rem;
+        padding: 0 1rem;
+    }
+    .course_photo {
+        width: 100%;
+    }
+    .course_name {
+        font-size: 2rem;
+    }
+    .course_cat {
+        font-size: 1rem;
+    }
+    .course_text {
+        font-size: 1rem;
+        margin-bottom: -1rem;
+    }
+    .course_link {
+        font-size: 1.1rem;
+    }
 }
