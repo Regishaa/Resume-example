@@ -381,3 +381,43 @@ p {
     color: var(--gray);
     text-decoration: none;
 }
+
+
+
+
+
+@media(max-width: 1199px) {
+    .intro {
+        margin-top: -5rem;
+    }
+    .intro_photo {
+        width: 100%;
+        position: relative;
+    }
+    .intro_inner {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        padding: 5rem 0;
+    }
+
+    .work {
+        width: 98%;
+        margin: 1rem auto;
+        border-radius: 1.5rem;
+    }
+    .work_photo {
+        width: 100%;
+    }
+    .work_cat {
+        font-size: 1.2rem;
+    }
+    .work_title {
+        font-size: 1.5rem;
+    }
+
+    /* .about_photo {
+        width: 100%;
+        height: 100%;
+        padding-left: 1rem;
+    } */
+}
