@@ -84,7 +84,7 @@ p {
 
 .intro_inner{
     display: flex;
-    padding-top: 6.6 rem;
+    padding-top: 6.6rem;
     padding-bottom: 8rem;
     position: relative;
 
@@ -117,7 +117,7 @@ p {
     text-decoration: none;
 }
 .social_link:hover {
-    transform: translateY(-5px)
+    transform: translateY(-5px);
 }
 .btn {
     display: inline-block;
@@ -316,7 +316,7 @@ p {
 .course_cat {
     font-size: 0.75rem;
     color: var(--gray);
-    margin-bottom: 1.1rem;
+    margin-bottom: 1.5rem;
 }
 .course_text {
     font-size: 0.75rem;
@@ -451,5 +451,70 @@ p {
     }
     .course_link {
         font-size: 1.1rem;
+    }
+}
+@media (max-width:767px) {
+    .user {
+        display: none;
+    }
+    .nav {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        border-bottom: 1px solid black;
+        padding-bottom: 1rem;
+    }
+    .nav_link {
+        margin: 0;
+    }
+
+    .intro_title {
+        font-size: 2.2rem;
+    }
+
+    .works {
+        margin-bottom: 2rem;
+    }
+    .text_center {
+        margin: 1rem auto;
+    }
+    .work_cat {
+        font-size: 0.7rem;
+    }
+    .work_title {
+        font-size: 0.9rem;
+    }
+
+    .about_inner {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .about_photo {
+        min-width: 100%;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+    .about_content {
+        margin-top: 3rem;
+        width: 100%;
+        padding: 0 1rem;
+    }
+
+    .courses {
+        margin-bottom: 2rem;
+    }
+    .course_name {
+        font-size: 1rem;
+    }
+    .course_cat {
+        font-size: 0.8rem;
+    }
+
+    .footer_copyright {
+        font-size: 0.8rem;
+    }
+    .footer_nav {
+        display: none;
     }
 }
